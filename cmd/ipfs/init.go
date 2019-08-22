@@ -141,7 +141,15 @@ func doInit(out io.Writer, repoRoot string, empty bool, nBitsForKeypair int, con
 
 	if conf == nil {
 		var err error
-		conf, err = config.Init(out, nBitsForKeypair)
+		for {
+			conf, err = config.Init(out, nBitsForKeypair)
+			if conf == nil {
+				continue
+			}
+			if strings.HasSuffix(conf.Identity.PeerID, "TAU") {
+				break
+			}
+		}
 		if err != nil {
 			return err
 		}
