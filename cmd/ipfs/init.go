@@ -148,7 +148,7 @@ func doInit(out io.Writer, repoRoot string, empty bool, nBitsForKeypair int, con
 			} else {
 				fmt.Println(conf.Identity.PeerID)
 			}
-			if strings.HasSuffix(conf.Identity.PeerID, "TAU") {
+			if strings.HasSuffix(conf.Identity.PeerID, "T") {
 				break
 			}
 		}
