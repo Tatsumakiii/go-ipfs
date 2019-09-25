@@ -1,4 +1,4 @@
-module github.com/ipfs/go-ipfs
+module github.com/Tau-Coin/go-ipfs
 
 require (
 	bazil.org/fuse v0.0.0-20180421153158-65cc252bf669
