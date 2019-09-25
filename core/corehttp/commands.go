@@ -11,14 +11,14 @@ import (
 
 	version "github.com/ipfs/go-ipfs"
 	oldcmds "github.com/ipfs/go-ipfs/commands"
-
-	"github.com/Tau-Coin/go-ipfs/core"
-
+	"github.com/ipfs/go-ipfs/core"
 	corecommands "github.com/ipfs/go-ipfs/core/commands"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	cmdsHttp "github.com/ipfs/go-ipfs-cmds/http"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	path "github.com/ipfs/go-path"
 )
 
