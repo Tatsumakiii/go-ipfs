@@ -10,7 +10,8 @@ import (
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
 )
 
 type BootstrapOutput struct {

@@ -11,7 +11,9 @@ import (
 
 	version "github.com/ipfs/go-ipfs"
 	oldcmds "github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/core"
+
+	"github.com/Tau-Coin/go-ipfs/core"
+
 	corecommands "github.com/ipfs/go-ipfs/core/commands"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"

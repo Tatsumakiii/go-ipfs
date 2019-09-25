@@ -9,7 +9,9 @@ import (
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/retrystore"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	"go.uber.org/fx"
 
 	"github.com/ipfs/go-ipfs/core/node/helpers"

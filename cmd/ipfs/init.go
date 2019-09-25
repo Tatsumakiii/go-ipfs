@@ -17,7 +17,9 @@ import (
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	"github.com/ipfs/go-ipfs-cmds"
-	"github.com/ipfs/go-ipfs-config"
+
+	"github.com/Tau-Coin/go-ipfs-config"
+
 	"github.com/ipfs/go-ipfs-files"
 )
 

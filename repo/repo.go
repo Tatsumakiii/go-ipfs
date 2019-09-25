@@ -8,7 +8,9 @@ import (
 	keystore "github.com/ipfs/go-ipfs/keystore"
 
 	ds "github.com/ipfs/go-datastore"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	ma "github.com/multiformats/go-multiaddr"
 )
 

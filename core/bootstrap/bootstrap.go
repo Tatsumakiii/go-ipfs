@@ -9,7 +9,8 @@ import (
 	"sync"
 	"time"
 
-	config "github.com/ipfs/go-ipfs-config"
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	logging "github.com/ipfs/go-log"
 	"github.com/jbenet/goprocess"
 	"github.com/jbenet/goprocess/context"

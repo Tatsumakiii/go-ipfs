@@ -21,8 +21,10 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	measure "github.com/ipfs/go-ds-measure"
 	lockfile "github.com/ipfs/go-fs-lock"
-	config "github.com/ipfs/go-ipfs-config"
-	serialize "github.com/ipfs/go-ipfs-config/serialize"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+	serialize "github.com/Tau-Coin/go-ipfs-config/serialize"
+
 	util "github.com/ipfs/go-ipfs-util"
 	logging "github.com/ipfs/go-log"
 	homedir "github.com/mitchellh/go-homedir"

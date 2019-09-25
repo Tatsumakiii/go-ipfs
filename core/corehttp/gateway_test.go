@@ -18,7 +18,9 @@ import (
 
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	files "github.com/ipfs/go-ipfs-files"
 	path "github.com/ipfs/go-path"
 	iface "github.com/ipfs/interface-go-ipfs-core"

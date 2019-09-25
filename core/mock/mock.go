@@ -10,7 +10,9 @@ import (
 
 	"github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
-	config "github.com/ipfs/go-ipfs-config"
+
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	"github.com/libp2p/go-libp2p"
 	host "github.com/libp2p/go-libp2p-host"
 	peer "github.com/libp2p/go-libp2p-peer"

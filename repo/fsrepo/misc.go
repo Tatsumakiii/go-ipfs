@@ -3,7 +3,8 @@ package fsrepo
 import (
 	"os"
 
-	config "github.com/ipfs/go-ipfs-config"
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	homedir "github.com/mitchellh/go-homedir"
 )
 

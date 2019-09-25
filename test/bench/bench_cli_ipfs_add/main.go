@@ -12,7 +12,8 @@ import (
 
 	"github.com/ipfs/go-ipfs/thirdparty/unit"
 
-	config "github.com/ipfs/go-ipfs-config"
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	random "github.com/jbenet/go-random"
 )
 

@@ -6,7 +6,8 @@ import (
 	filestore "github.com/ipfs/go-ipfs/filestore"
 	keystore "github.com/ipfs/go-ipfs/keystore"
 
-	config "github.com/ipfs/go-ipfs-config"
+	config "github.com/Tau-Coin/go-ipfs-config"
+
 	ma "github.com/multiformats/go-multiaddr"
 )
 
